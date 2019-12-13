@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
 
     fun display(){
         if(myData.premiumAmount != 0.0)
-            pricetxt.text = "RM %s".format(myData.premiumAmount.toString())
+            pricetxt.text = "RM %s".format(myData.premiumAmount.toString())//
     }
 
     fun reset(){
